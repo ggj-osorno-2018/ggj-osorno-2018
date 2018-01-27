@@ -1,12 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-osorno-2018", "ggj-osorno-2018.csproj", "{FE6C4E09-AD66-20B4-DF89-FDB62069C896}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE6C4E09-AD66-20B4-DF89-FDB62069C896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6C4E09-AD66-20B4-DF89-FDB62069C896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6C4E09-AD66-20B4-DF89-FDB62069C896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6C4E09-AD66-20B4-DF89-FDB62069C896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
