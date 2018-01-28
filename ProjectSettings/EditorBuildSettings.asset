@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ratman.unity
+    guid: b3f669b00c1a6924683a2870f9c48bca
+  - enabled: 1
+    path: Assets/Sprites/Map/boss/boss.unity
+    guid: a84fa3f67a91d0c40a95dedbfac1a1e6
