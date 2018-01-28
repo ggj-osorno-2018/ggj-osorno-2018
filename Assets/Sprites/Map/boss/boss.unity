@@ -2978,6 +2978,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 523785354}
+  - component: {fileID: 523785355}
   m_Layer: 0
   m_Name: grietas
   m_TagString: Untagged
@@ -2991,9 +2992,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 523785353}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.1330743, y: -1.7943851, z: -0.0650341}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.60206, y: -5.7395725, z: -0.030768821}
+  m_LocalScale: {x: 0.7458602, y: 0.598222, z: 0.47311828}
   m_Children:
   - {fileID: 239705401}
   - {fileID: 188379531}
@@ -3003,9 +3004,21 @@ Transform:
   - {fileID: 459929655}
   - {fileID: 136916518}
   - {fileID: 1576053749}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1055667115}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &523785355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523785353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 763f508c2851e164885df1ce7212c274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: {fileID: 0}
 --- !u!1 &524838638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4101,7 +4114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &878110534
 Transform:
   m_ObjectHideFlags: 0
@@ -5675,11 +5688,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1055667107}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4, y: 7.8, z: 0}
-  m_LocalScale: {x: 1.3407339, y: 1.6716201, z: 2.1136363}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.399999, y: 7.8, z: 0}
+  m_LocalScale: {x: 1.3407338, y: 1.6716201, z: 2.1136363}
   m_Children:
   - {fileID: 1348801760}
+  - {fileID: 523785354}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5777,8 +5791,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 1055667107}
-  minCamPos: {x: 1.95, y: 1.17, z: -10}
-  maxCamPos: {x: 109.4, y: 1.17, z: -10}
+  minCamPos: {x: 0, y: 0, z: 0}
+  maxCamPos: {x: 0, y: 0, z: 0}
   smoothTime: 0
 --- !u!1 &1075862376
 GameObject:
@@ -11085,7 +11099,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2126951572
 GameObject:
@@ -11274,7 +11288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6abc277aa12ec47aba7670431fde7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  follow: {fileID: 1073146829}
+  follow: {fileID: 0}
   Wall: {fileID: 755133286}
 --- !u!61 &2136034935
 BoxCollider2D:

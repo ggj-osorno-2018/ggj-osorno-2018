@@ -146,8 +146,8 @@ public class PlayerControlador : MonoBehaviour {
     {
 
 
-        barravida.SendMessage("TakeDamage", 10);
-        jump = true;
+            barravida.SendMessage("TakeDamage", 20f);
+            jump = true;
             float side = Mathf.Sign(enemyPostX - transform.position.x);
             rb2d.AddForce(Vector2.left * side * jumpPower, ForceMode2D.Impulse);
             movement = false;
